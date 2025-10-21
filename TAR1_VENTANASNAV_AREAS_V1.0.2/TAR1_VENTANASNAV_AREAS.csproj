@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{68F74E34-1F89-492E-9016-9EB0DBA83320}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>TAR1_VENTANASNAV_AREAS</RootNamespace>
+    <AssemblyName>TAR1_VENTANASNAV_AREAS</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="cuadrado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cuadrado.Designer.cs">
+      <DependentUpon>cuadrado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="circulo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="circulo.Designer.cs">
+      <DependentUpon>circulo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="poligono.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="poligono.Designer.cs">
+      <DependentUpon>poligono.cs</DependentUpon>
+    </Compile>
+    <Compile Include="trapecio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="trapecio.Designer.cs">
+      <DependentUpon>trapecio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="romboide.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="romboide.Designer.cs">
+      <DependentUpon>romboide.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rombo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="rombo.Designer.cs">
+      <DependentUpon>rombo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="triangulo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="triangulo.Designer.cs">
+      <DependentUpon>triangulo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rectangulo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="rectangulo.Designer.cs">
+      <DependentUpon>rectangulo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="home.Designer.cs">
+      <DependentUpon>home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="circulo.resx">
+      <DependentUpon>circulo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cuadrado.resx">
+      <DependentUpon>cuadrado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="poligono.resx">
+      <DependentUpon>poligono.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rombo.resx">
+      <DependentUpon>rombo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="romboide.resx">
+      <DependentUpon>romboide.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="trapecio.resx">
+      <DependentUpon>trapecio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="triangulo.resx">
+      <DependentUpon>triangulo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="home.resx">
+      <DependentUpon>home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="rectangulo.resx">
+      <DependentUpon>rectangulo.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="resources\circulo.png" />
+    <Content Include="resources\cuadrado.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="resources\poligono.png" />
+    <Content Include="resources\rectangulo.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="resources\rombo.png" />
+    <Content Include="resources\romboide.png" />
+    <Content Include="resources\trapecio.png" />
+    <Content Include="resources\triangulo.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
