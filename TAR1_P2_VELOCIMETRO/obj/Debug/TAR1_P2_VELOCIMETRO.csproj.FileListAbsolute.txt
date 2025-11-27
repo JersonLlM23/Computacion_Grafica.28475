@@ -1,0 +1,11 @@
+C:\Users\JERSON\Documents\IngenieriaSW\Programacion\C#\Computacion_Grafica\PARCIAL 2\TAREAS_U2\TAR1_P2_VELOCIMETRO\obj\Debug\TAR1_P2_VELOCIMETRO.csproj.AssemblyReference.cache
+C:\Users\JERSON\Documents\IngenieriaSW\Programacion\C#\Computacion_Grafica\PARCIAL 2\TAREAS_U2\TAR1_P2_VELOCIMETRO\obj\Debug\TAR1_P2_VELOCIMETRO.Properties.Resources.resources
+C:\Users\JERSON\Documents\IngenieriaSW\Programacion\C#\Computacion_Grafica\PARCIAL 2\TAREAS_U2\TAR1_P2_VELOCIMETRO\obj\Debug\TAR1_P2_VELOCIMETRO.Velocimetro.resources
+C:\Users\JERSON\Documents\IngenieriaSW\Programacion\C#\Computacion_Grafica\PARCIAL 2\TAREAS_U2\TAR1_P2_VELOCIMETRO\obj\Debug\TAR1_P2_VELOCIMETRO.csproj.GenerateResource.cache
+C:\Users\JERSON\Documents\IngenieriaSW\Programacion\C#\Computacion_Grafica\PARCIAL 2\TAREAS_U2\TAR1_P2_VELOCIMETRO\obj\Debug\TAR1_P2_VELOCIMETRO.csproj.CoreCompileInputs.cache
+C:\Users\JERSON\Documents\IngenieriaSW\Programacion\C#\Computacion_Grafica\PARCIAL 2\TAREAS_U2\TAR1_P2_VELOCIMETRO\bin\Debug\TAR1_P2_VELOCIMETRO.exe.config
+C:\Users\JERSON\Documents\IngenieriaSW\Programacion\C#\Computacion_Grafica\PARCIAL 2\TAREAS_U2\TAR1_P2_VELOCIMETRO\bin\Debug\TAR1_P2_VELOCIMETRO.exe
+C:\Users\JERSON\Documents\IngenieriaSW\Programacion\C#\Computacion_Grafica\PARCIAL 2\TAREAS_U2\TAR1_P2_VELOCIMETRO\bin\Debug\TAR1_P2_VELOCIMETRO.pdb
+C:\Users\JERSON\Documents\IngenieriaSW\Programacion\C#\Computacion_Grafica\PARCIAL 2\TAREAS_U2\TAR1_P2_VELOCIMETRO\obj\Debug\TAR1_P2_VELOCIMETRO.exe
+C:\Users\JERSON\Documents\IngenieriaSW\Programacion\C#\Computacion_Grafica\PARCIAL 2\TAREAS_U2\TAR1_P2_VELOCIMETRO\obj\Debug\TAR1_P2_VELOCIMETRO.pdb
+C:\Users\JERSON\Documents\IngenieriaSW\Programacion\C#\Computacion_Grafica\PARCIAL 2\TAREAS_U2\TAR1_P2_VELOCIMETRO\obj\Debug\TAR1_P2_VELOCIMETRO.exe.config
