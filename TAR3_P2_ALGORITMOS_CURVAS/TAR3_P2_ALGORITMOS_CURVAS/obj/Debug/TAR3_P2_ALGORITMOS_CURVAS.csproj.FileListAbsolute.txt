@@ -1,0 +1,11 @@
+C:\Users\JERSON\Documents\IngenieriaSW\Programacion\C#\Computacion_Grafica\PARCIAL 2\TAREAS_U2\TAR3_P2_ALGORITMOS_CURVAS\TAR3_P2_ALGORITMOS_CURVAS\obj\Debug\TAR3_P2_ALGORITMOS_CURVAS.csproj.AssemblyReference.cache
+C:\Users\JERSON\Documents\IngenieriaSW\Programacion\C#\Computacion_Grafica\PARCIAL 2\TAREAS_U2\TAR3_P2_ALGORITMOS_CURVAS\TAR3_P2_ALGORITMOS_CURVAS\obj\Debug\TAR3_P2_ALGORITMOS_CURVAS.Properties.Resources.resources
+C:\Users\JERSON\Documents\IngenieriaSW\Programacion\C#\Computacion_Grafica\PARCIAL 2\TAREAS_U2\TAR3_P2_ALGORITMOS_CURVAS\TAR3_P2_ALGORITMOS_CURVAS\obj\Debug\TAR3_P2_ALGORITMOS_CURVAS.Vistas.frmCurvas.resources
+C:\Users\JERSON\Documents\IngenieriaSW\Programacion\C#\Computacion_Grafica\PARCIAL 2\TAREAS_U2\TAR3_P2_ALGORITMOS_CURVAS\TAR3_P2_ALGORITMOS_CURVAS\obj\Debug\TAR3_P2_ALGORITMOS_CURVAS.csproj.GenerateResource.cache
+C:\Users\JERSON\Documents\IngenieriaSW\Programacion\C#\Computacion_Grafica\PARCIAL 2\TAREAS_U2\TAR3_P2_ALGORITMOS_CURVAS\TAR3_P2_ALGORITMOS_CURVAS\obj\Debug\TAR3_P2_ALGORITMOS_CURVAS.csproj.CoreCompileInputs.cache
+C:\Users\JERSON\Documents\IngenieriaSW\Programacion\C#\Computacion_Grafica\PARCIAL 2\TAREAS_U2\TAR3_P2_ALGORITMOS_CURVAS\TAR3_P2_ALGORITMOS_CURVAS\bin\Debug\TAR3_P2_ALGORITMOS_CURVAS.exe.config
+C:\Users\JERSON\Documents\IngenieriaSW\Programacion\C#\Computacion_Grafica\PARCIAL 2\TAREAS_U2\TAR3_P2_ALGORITMOS_CURVAS\TAR3_P2_ALGORITMOS_CURVAS\bin\Debug\TAR3_P2_ALGORITMOS_CURVAS.exe
+C:\Users\JERSON\Documents\IngenieriaSW\Programacion\C#\Computacion_Grafica\PARCIAL 2\TAREAS_U2\TAR3_P2_ALGORITMOS_CURVAS\TAR3_P2_ALGORITMOS_CURVAS\bin\Debug\TAR3_P2_ALGORITMOS_CURVAS.pdb
+C:\Users\JERSON\Documents\IngenieriaSW\Programacion\C#\Computacion_Grafica\PARCIAL 2\TAREAS_U2\TAR3_P2_ALGORITMOS_CURVAS\TAR3_P2_ALGORITMOS_CURVAS\obj\Debug\TAR3_P2_ALGORITMOS_CURVAS.exe
+C:\Users\JERSON\Documents\IngenieriaSW\Programacion\C#\Computacion_Grafica\PARCIAL 2\TAREAS_U2\TAR3_P2_ALGORITMOS_CURVAS\TAR3_P2_ALGORITMOS_CURVAS\obj\Debug\TAR3_P2_ALGORITMOS_CURVAS.pdb
+C:\Users\JERSON\Documents\IngenieriaSW\Programacion\C#\Computacion_Grafica\PARCIAL 2\TAREAS_U2\TAR3_P2_ALGORITMOS_CURVAS\TAR3_P2_ALGORITMOS_CURVAS\obj\Debug\TAR3_P2_ALGORITMOS_CURVAS.exe.config

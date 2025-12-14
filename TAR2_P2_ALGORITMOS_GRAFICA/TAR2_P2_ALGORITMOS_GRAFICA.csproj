@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{018D5911-9A31-4BEA-804D-48C312A89998}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>TAR2_P2_ALGORITMOS_GRAFICA</RootNamespace>
+    <AssemblyName>TAR2_P2_ALGORITMOS_GRAFICA</AssemblyName>
+    <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controlador\BoundaryFillAlgorithm.cs" />
+    <Compile Include="Controlador\CirculoBresenhamController.cs" />
+    <Compile Include="Controlador\CirculoParametricoControlador.cs" />
+    <Compile Include="Controlador\CirculoPMController.cs" />
+    <Compile Include="Controlador\CohenSutherlandClipper.cs" />
+    <Compile Include="Controlador\FloodFillController.cs" />
+    <Compile Include="Controlador\LiangBarskyClipper.cs" />
+    <Compile Include="Controlador\LiangBarskyClipperCutP.cs" />
+    <Compile Include="Controlador\LineaBresenhamController.cs" />
+    <Compile Include="Controlador\LineaDDAController.cs" />
+    <Compile Include="Controlador\LineaPMController.cs" />
+    <Compile Include="Controlador\NichollLeeNichollClipper.cs" />
+    <Compile Include="Controlador\SutherlandHodgmanClipper.cs" />
+    <Compile Include="Controlador\WeilerAthertonClipper.cs" />
+    <Compile Include="Modelo\CirculoBresenhamModel.cs" />
+    <Compile Include="Modelo\CirculoParametricoModelo.cs" />
+    <Compile Include="Modelo\CirculoPuntoMedioModel.cs" />
+    <Compile Include="Modelo\FloodFillModel.cs" />
+    <Compile Include="Modelo\LineaBresenhamModel.cs" />
+    <Compile Include="Modelo\LineaDDAModel.cs" />
+    <Compile Include="Modelo\LineaPMModel.cs" />
+    <Compile Include="Vistas\Bienvenida.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Bienvenida.Designer.cs">
+      <DependentUpon>Bienvenida.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\CutLineNLN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\CutLineNLN.Designer.cs">
+      <DependentUpon>CutLineNLN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\CutLinesCohenS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\CutLinesCohenS.Designer.cs">
+      <DependentUpon>CutLinesCohenS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\CutLinesLiangB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\CutLinesLiangB.Designer.cs">
+      <DependentUpon>CutLinesLiangB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\cutPoligLiangB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\cutPoligLiangB.Designer.cs">
+      <DependentUpon>cutPoligLiangB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\cutPoligSutherlandH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\cutPoligSutherlandH.Designer.cs">
+      <DependentUpon>cutPoligSutherlandH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\cutPoligWeilerA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\cutPoligWeilerA.Designer.cs">
+      <DependentUpon>cutPoligWeilerA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\RellenoBoundaryFill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\RellenoBoundaryFill.Designer.cs">
+      <DependentUpon>RellenoBoundaryFill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\CirculoBresenham.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\CirculoBresenham.Designer.cs">
+      <DependentUpon>CirculoBresenham.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\CirculoParametrico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\CirculoParametrico.Designer.cs">
+      <DependentUpon>CirculoParametrico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\CirculoPM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\CirculoPM.Designer.cs">
+      <DependentUpon>CirculoPM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\RellenoFloodFillBFS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\RellenoFloodFillBFS.Designer.cs">
+      <DependentUpon>RellenoFloodFillBFS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Vistas\LineaBresenham.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\LineaBresenham.Designer.cs">
+      <DependentUpon>LineaBresenham.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\LineaDDA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\LineaDDA.Designer.cs">
+      <DependentUpon>LineaDDA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\LineaPM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\LineaPM.Designer.cs">
+      <DependentUpon>LineaPM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\RellenoFloodFill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\RellenoFloodFill.Designer.cs">
+      <DependentUpon>RellenoFloodFill.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Vistas\Bienvenida.resx">
+      <DependentUpon>Bienvenida.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\CutLineNLN.resx">
+      <DependentUpon>CutLineNLN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\CutLinesCohenS.resx">
+      <DependentUpon>CutLinesCohenS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\CutLinesLiangB.resx">
+      <DependentUpon>CutLinesLiangB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\cutPoligLiangB.resx">
+      <DependentUpon>cutPoligLiangB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\cutPoligSutherlandH.resx">
+      <DependentUpon>cutPoligSutherlandH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\cutPoligWeilerA.resx">
+      <DependentUpon>cutPoligWeilerA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\RellenoBoundaryFill.resx">
+      <DependentUpon>RellenoBoundaryFill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\CirculoBresenham.resx">
+      <DependentUpon>CirculoBresenham.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\CirculoParametrico.resx">
+      <DependentUpon>CirculoParametrico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\CirculoPM.resx">
+      <DependentUpon>CirculoPM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\RellenoFloodFillBFS.resx">
+      <DependentUpon>RellenoFloodFillBFS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Vistas\LineaBresenham.resx">
+      <DependentUpon>LineaBresenham.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\LineaDDA.resx">
+      <DependentUpon>LineaDDA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\LineaPM.resx">
+      <DependentUpon>LineaPM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\RellenoFloodFill.resx">
+      <DependentUpon>RellenoFloodFill.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
